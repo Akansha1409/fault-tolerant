@@ -55,31 +55,31 @@ npm install
 # Installs Express, SQLite3, CORS, Body-Parser
 ```
 
-Frontend Setup:
-
-Bash
-
+**Frontend Setup:**
+```bash
 cd ../frontend
 npm install
 # Installs React, Vite, and dependencies
+```
 
-2️⃣ Running the Application
+### 2️⃣ Running the Application
 You need to run the Backend and Frontend in two separate terminal windows.
 
 Terminal 1 (Backend Service):
-
-Bash
-
+```bash
 cd backend
 node server.js
 # Runs on http://localhost:3001
+```
+
 Terminal 2 (Frontend UI):
-
-Bash
-
+```bash
 cd frontend
 npm run dev
 # Runs on http://localhost:5173
+```
+
+---
 
 ## 📝 Q&A (Assignment Deliverables)
 
